@@ -83,3 +83,16 @@ aside#sidebar section h3{
     width: 100%;
     height:100%;
 }
+.boxed-container{
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+    padding: 20px;
+}
+#main-content{
+    flex: 3;
+
+}
+#sidebar{
+    flex: 3;
+}
